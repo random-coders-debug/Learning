@@ -12,9 +12,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/Styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Navigation Section -->
+    <!-- navigation section -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid nav-wide px-3">
         <span class="navbar-brand mt-2 h1 fs-4" href="#">TEkNO-CrAFTS</span>
@@ -27,53 +31,27 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="bx bx-menu" id="menu-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-lg-0">
+          <ul class="navbar-nav me-auto mb-lg-0 navlist">
             <li class="nav-item me-3">
-              <a class="nav-link active text-black" aria-current="page" href="#home"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#home"
+                style="--i: 1"
                 >Home</a
               >
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link text-black" href="#about">About</a>
-            </li>
-            <li class="nav-item me-3 dropdown">
-              <a
-                class="nav-link dropdown-toggle text-black"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item text-black" href="#services">Web Design</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-black" href="#services"
-                    >Mobile App Development</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-black" href="#services">Cloud Computing</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-black" href="#services"
-                    >Artificial Intelligence</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-black" href="#services">Cyber Security</a>
-                </li>
-                <li><a class="dropdown-item text-black" href="#services">Hosting</a></li>
-              </ul>
+              <a class="nav-link" href="#about" style="--i: 2">About</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link text-black" href="#contact-us">Contact</a>
+              <a class="nav-link" href="#services" style="--i: 3"> Services </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#contact-us" style="--i: 4">Contact</a>
             </li>
           </ul>
           <form class="d-flex nav-form py-2" role="search">
@@ -83,18 +61,25 @@
               placeholder="Search..."
               aria-label="Search"
             />
-            <button class="btn d-flex align-items-center justify-content-center px-0" type="submit">
+            <button
+              class="btn d-flex align-items-center justify-content-center px-0"
+              type="submit"
+            >
               <ion-icon name="search" class="fs-4"></ion-icon>
             </button>
           </form>
         </div>
       </div>
     </nav>
-    <!-- End of Navigation Section -->
+    <!-- end of navigation section -->
 
     <!-- Home Section -->
     <section class="container-fluid px-0" id="home">
-      <div id="carouselSection" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselSection"
+        class="carousel slide scroll-scale"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
@@ -124,26 +109,20 @@
               class="d-block w-60 me-3 ps-0"
               alt="..."
             />
-            <div class="carousel-caption d-none d-md-flex flex-column me-0 pad caption">
+            <div
+              class="carousel-caption d-none d-md-flex flex-column me-0 pad caption"
+            >
               <h1>Trusted Effective Services And Solutions.</h1>
             </div>
           </div>
           <div class="carousel-item carousel-box">
-            <img
-              src="/Images/Img_02.png"
-              class="d-block w-60"
-              alt="..."
-            />
+            <img src="/Images/Img_02.png" class="d-block w-60" alt="..." />
             <div class="carousel-caption d-none d-md-flex flex-column caption">
               <h1>Make Real-life Connections With IT.</h1>
             </div>
           </div>
           <div class="carousel-item carousel-box">
-            <img
-              src="/Images/Img_03.png"
-              class="d-block w-60"
-              alt="..."
-            />
+            <img src="/Images/Img_03.png" class="d-block w-60" alt="..." />
             <div class="carousel-caption d-none d-md-flex flex-column caption">
               <h1>Secure IT Solutions For A More Secure Environment.</h1>
             </div>
@@ -169,9 +148,9 @@
         </button>
       </div>
     </section>
-    <!-- End of the Home Section -->
+    <!-- end of the home section -->
 
-    <!-- About Us Page Section -->
+    <!-- about us page section -->
     <section class="container-fluid d-flex flex-column" id="about">
       <h1 class="fs-1 text-center section-header">About Us</h1>
       <h2 class="text-center fs-6 sub-header">Who Are We?</h2>
@@ -187,7 +166,11 @@
           </p>
         </div>
         <div class="col">
-          <img src="/Images/Laptop.png" alt="" class="rounded about-img" />
+          <img
+            src="/Images/Laptop.png"
+            alt=""
+            class="rounded about-img scroll-scale"
+          />
         </div>
       </div>
 
@@ -202,7 +185,11 @@
           </p>
         </div>
         <div class="col">
-          <img src="/Images/Story.png" alt="" class="rounded about-img" />
+          <img
+            src="/Images/Story.png"
+            alt=""
+            class="rounded about-img scroll-bottom"
+          />
         </div>
       </div>
 
@@ -218,7 +205,11 @@
           </p>
         </div>
         <div class="col">
-          <img src="/Images/expertise__.png" alt="" class="rounded about-img" />
+          <img
+            src="/Images/expertise__.png"
+            alt=""
+            class="rounded about-img scroll-scale"
+          />
         </div>
       </div>
 
@@ -235,7 +226,11 @@
           </p>
         </div>
         <div class="col">
-          <img src="/Images/innovation.png" alt="" class="rounded about-img" />
+          <img
+            src="/Images/innovation.png"
+            alt=""
+            class="rounded about-img scroll-top"
+          />
         </div>
       </div>
 
@@ -251,7 +246,11 @@
           </p>
         </div>
         <div class="col">
-          <img src="/Images/team.png" alt="" class="rounded about-img" />
+          <img
+            src="/Images/team.png"
+            alt=""
+            class="rounded about-img scroll-bottom"
+          />
         </div>
       </div>
 
@@ -266,20 +265,24 @@
           </p>
         </div>
         <div class="col">
-          <img src="/Images/Commitment.png" alt="" class="rounded about-img" />
+          <img
+            src="/Images/Commitment.png"
+            alt=""
+            class="rounded about-img scroll-top"
+          />
         </div>
       </div>
     </section>
-    <!-- End Of About Us Section -->
+    <!-- end of about us section -->
 
-    <!-- Service Section -->
+    <!-- service section -->
     <section class="container-fluid d-flex flex-column" id="services">
       <h1 class="fs-1 text-center section-header">Our Services</h1>
       <h2 class="text-center fs-6 sub-header">What We Do</h2>
       <div class="container d-flex flex-wrap mx-auto service-section">
-        <div class="card text-center m-3">
+        <div class="card text-center m-3 scroll-top">
           <div class="card-img">
-            <img src="/Images/web.jpg" alt="">
+            <img src="/Images/web.jpg" alt="" />
           </div>
           <div class="card-body card-content">
             <h5 class="card-title text-white mb-0">Web Design</h5>
@@ -294,9 +297,9 @@
           </div>
         </div>
 
-        <div class="card text-center m-3">
+        <div class="card text-center m-3 scroll-top">
           <div class="card-img">
-            <img src="/Images/mobile.svg" alt="">
+            <img src="/Images/mobile.svg" alt="" />
           </div>
           <div class="card-body card-content">
             <h5 class="card-title text-white mb-0">Mobile App Development</h5>
@@ -311,9 +314,9 @@
           </div>
         </div>
 
-        <div class="card text-center m-3">
+        <div class="card text-center m-3 scroll-top">
           <div class="card-img">
-            <img src="/Images/cloud_computing.jpg" alt="">
+            <img src="/Images/cloud_computing.jpg" alt="" />
           </div>
           <div class="card-body card-content">
             <h5 class="card-title text-white mb-0">Cloud Computing</h5>
@@ -328,14 +331,14 @@
           </div>
         </div>
 
-        <div class="card text-center m-3">
+        <div class="card text-center m-3 scroll-bottom">
           <div class="card-img">
-            <img src="/Images/cybernetics.jpg" alt="">
+            <img src="/Images/cybernetics.jpg" alt="" />
           </div>
           <div class="card-body card-content">
             <h5 class="card-title text-white mb-0">Artificial Intelligence</h5>
             <div class="icon">
-              <img src="/Images/ai-icon.png" alt="">
+              <img src="/Images/ai-icon.png" alt="" />
             </div>
             <p class="card-text text-white">
               With supporting text below as a natural lead-in to additional
@@ -345,9 +348,9 @@
           </div>
         </div>
 
-        <div class="card text-center m-3">
+        <div class="card text-center m-3 scroll-bottom">
           <div class="card-img">
-            <img src="/Images/cyber.svg" alt="">
+            <img src="/Images/cyber.svg" alt="" />
           </div>
           <div class="card-body card-content">
             <h5 class="card-title text-white mb-0">Cyber Security</h5>
@@ -362,14 +365,14 @@
           </div>
         </div>
 
-        <div class="card text-center m-3">
+        <div class="card text-center m-3 scroll-bottom">
           <div class="card-img">
-            <img src="/Images/hosting.jpg" alt="">
+            <img src="/Images/hosting.jpg" alt="" />
           </div>
           <div class="card-body card-content">
             <h5 class="card-title text-white mb-0">Hosting</h5>
             <div class="icon">
-              <img src="/Images/website-hosting-icon.png" alt="">
+              <img src="/Images/website-hosting-icon.png" alt="" />
             </div>
             <p class="card-text text-white">
               With supporting text below as a natural lead-in to additional
@@ -380,11 +383,11 @@
         </div>
       </div>
     </section>
-    <!-- End of Services Section -->
+    <!-- end of services section -->
 
     <!-- contact section -->
     <section
-      class=".container-fluid d-flex flex-column contact_section layout_padding"
+      class="container-fluid d-flex flex-column contact_section layout_padding"
       id="contact-us"
     >
       <h1 class="fs-1 text-center section-header">Contact Us</h1>
@@ -404,7 +407,12 @@
                   <input type="email" placeholder="Email Address" />
                 </div>
                 <div>
-                  <textarea cols="30" rows="10" class="input_message" placeholder="Write your message."></textarea>
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    class="input_message"
+                    placeholder="Write your message."
+                  ></textarea>
                 </div>
                 <div class="d-flex justify-content-center">
                   <button type="submit" class="btn_on-hover bg-primary">
@@ -417,7 +425,7 @@
         </div>
       </div>
     </section>
-    <!-- end contact section -->
+    <!-- end of contact section -->
 
     <!-- Footer Section -->
     <section class="container-fluid d-flex flex-column pt-4" id="footer">
@@ -425,51 +433,95 @@
         <div class="col-5 mx-2">
           <h4 class="footer-text-color">TEkNO-CrAFTS</h4>
           <p class="text-start fs-6 text-secondary-emphasis">
-            Designed and built with all the love in the world by the <a href="" class="link-underline-dark link-underline-opacity-0 text-secondary-emphasis link-underline-opacity-75-hover link-offset-2-hover">Random-Coders-Debug</a>.
+            Designed and built with all the love in the world by the
+            <a
+              href=""
+              class="link-underline-dark link-underline-opacity-0 text-secondary-emphasis link-underline-opacity-75-hover link-offset-2-hover"
+              >Random-Coders-Debug</a
+            >.
           </p>
         </div>
         <div class="col-4 mx-2">
           <h4 class="footer-text-color">Contact info</h4>
           <div class="text-start d-flex flex-column">
             <a href="" class="nav-link mb-1 contact-info">
-              <ion-icon class="fs-5 me-3 footer-text-color" name="location-outline"></ion-icon>
-              <span class="fs-6 text-secondary-emphasis">MUST - Iyunga, Mbeya</span>
+              <ion-icon
+                class="fs-5 me-3 footer-text-color"
+                name="location-outline"
+              ></ion-icon>
+              <span class="fs-6 text-secondary-emphasis"
+                >MUST - Iyunga, Mbeya</span
+              >
             </a>
             <a href="" class="nav-link mb-1 contact-info">
-              <ion-icon class="fs- me-3 footer-text-color" name="call-outline"></ion-icon>
+              <ion-icon
+                class="fs- me-3 footer-text-color"
+                name="call-outline"
+              ></ion-icon>
               <span class="fs-6 text-secondary-emphasis">+255 67 2863852</span>
             </a>
             <a href="" class="nav-link mb-1 contact-info">
-              <ion-icon class="fs-5 me-3 footer-text-color" name="mail-outline"></ion-icon>
-              <span class="fs-6 text-secondary-emphasis">randomcoders@codebug.co</span>
+              <ion-icon
+                class="fs-5 me-3 footer-text-color"
+                name="mail-outline"
+              ></ion-icon>
+              <span class="fs-6 text-secondary-emphasis"
+                >randomcoders@codebug.co</span
+              >
             </a>
             <div class="social-icons d-flex mt-2">
-              <a href="" class="nav-link me-3"><ion-icon class="fs-4 footer-text-color" name="logo-github"></ion-icon></a>
-              <a href="" class="nav-link me-3"><ion-icon class="fs-4 footer-text-color" name="logo-instagram"></ion-icon></a>
-              <a href="" class="nav-link me-3"><ion-icon class="fs-4 footer-text-color" name="logo-twitter"></ion-icon></a>
-              <a href="" class="nav-link me-3"><ion-icon class="fs-4 footer-text-color" name="logo-facebook"></ion-icon></a>
+              <a href="" class="nav-link me-3"
+                ><ion-icon
+                  class="fs-4 footer-text-color"
+                  name="logo-github"
+                ></ion-icon
+              ></a>
+              <a href="" class="nav-link me-3"
+                ><ion-icon
+                  class="fs-4 footer-text-color"
+                  name="logo-instagram"
+                ></ion-icon
+              ></a>
+              <a href="" class="nav-link me-3"
+                ><ion-icon
+                  class="fs-4 footer-text-color"
+                  name="logo-twitter"
+                ></ion-icon
+              ></a>
+              <a href="" class="nav-link me-3"
+                ><ion-icon
+                  class="fs-4 footer-text-color"
+                  name="logo-facebook"
+                ></ion-icon
+              ></a>
             </div>
           </div>
         </div>
         <div class="col mx-2">
           <h4 class="footer-text-color">Support</h4>
           <div class="text-start d-flex flex-column">
-            <a href="" class="nav-link fs-6 text-secondary-emphasis">Terms and Condition</a>
+            <a href="" class="nav-link fs-6 text-secondary-emphasis"
+              >Terms and Condition</a
+            >
             <a href="" class="nav-link fs-6 text-secondary-emphasis">FAQs</a>
-            <a href="" class="nav-link fs-6 text-secondary-emphasis">Privacy Policy</a>
-            <a href="" class="nav-link fs-6 text-secondary-emphasis">Cookie Policy</a>
+            <a href="" class="nav-link fs-6 text-secondary-emphasis"
+              >Privacy Policy</a
+            >
+            <a href="" class="nav-link fs-6 text-secondary-emphasis"
+              >Cookie Policy</a
+            >
           </div>
-        </div>  
+        </div>
       </div>
-      <hr>
+      <hr />
       <div class="container-fluid row text-center">
         <p class="fs-6">&copy 2024 All Rights Reserved.</p>
       </div>
     </section>
-    <!-- end footer section -->
+    <!-- end of footer section -->
 
     <!-- Custom Script -->
-    <script src="index.js"></script>
+    <script src="/Scripts/index.js"></script>
     <!-- Ionicon -->
     <script
       type="module"
