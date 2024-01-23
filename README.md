@@ -13,7 +13,7 @@
 9. Enock Luhimbo                        22100533350082
 10. Severin Pius                        22100533350043
 
-##TEkNO-CrAFT 
+## TEkNO-CrAFT 
 TEkNO-CrAFT is a website that offers technology services including
 *Website Designing.
 *Mobile App Development
