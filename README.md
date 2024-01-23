@@ -15,12 +15,12 @@
 
 ## TEkNO-CrAFT 
 TEkNO-CrAFT is a website that offers technology services including
-*Website Designing.
-*Mobile App Development
-*Cloud Computing
-*Artificial Intelligence
-*Cyber Security
-*Hosting Services
+* Website Designing.
+* Mobile App Development
+* Cloud Computing
+* Artificial Intelligence
+* Cyber Security
+* Hosting Services
 and many more. 
 
 This project is built by using various technologies such as **HTML**, **CSS**, [**BOOTSTRAP**](https://getbootstrap.com/) and pure **Vanila Javascript**. This project is *front-end* based but in the near future we hope to integrate it with *back-end* and probably add some more services.
