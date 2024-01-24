@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TEkNO-CrAFTS</title>
 
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <!-- styles -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,6 +33,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/Styles/style.css" />
+
+    <!-- icons -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -104,32 +127,26 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item carousel-box active">
-            <img
-              src="/Images/Img_01.png"
-              class="d-block w-60 me-3 ps-0"
-              alt="..."
-            />
-            <div
-              class="carousel-caption d-none d-md-flex flex-column me-0 pad caption"
-            >
+            <img src="/Images/Img_01.png" class="d-block w-100 me-3 ps-0" />
+            <div class="carousel-caption d-md-block caption">
               <h1>Trusted Effective Services And Solutions.</h1>
             </div>
           </div>
           <div class="carousel-item carousel-box">
-            <img src="/Images/Img_02.png" class="d-block w-60" alt="..." />
-            <div class="carousel-caption d-none d-md-flex flex-column caption">
+            <img src="/Images/Img_02.png" class="d-block w-100" />
+            <div class="carousel-caption d-md-block caption">
               <h1>Make Real-life Connections With IT.</h1>
             </div>
           </div>
           <div class="carousel-item carousel-box">
-            <img src="/Images/Img_03.png" class="d-block w-60" alt="..." />
-            <div class="carousel-caption d-none d-md-flex flex-column caption">
+            <img src="/Images/Img_03.png" class="d-block w-100" />
+            <div class="carousel-caption d-md-block caption">
               <h1>Secure IT Solutions For A More Secure Environment.</h1>
             </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev d-none"
+          class="carousel-control-prev"
           type="button"
           data-bs-target="#carouselCaptionsSection"
           data-bs-slide="prev"
@@ -138,7 +155,7 @@
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next d-none"
+          class="carousel-control-next"
           type="button"
           data-bs-target="#carouselCaptionsSection"
           data-bs-slide="next"
@@ -151,12 +168,12 @@
     <!-- end of the home section -->
 
     <!-- about us page section -->
-    <section class="container-fluid d-flex flex-column" id="about">
+    <section class="container-fluid d-flex flex-column pb-3" id="about">
       <h1 class="fs-1 text-center section-header">About Us</h1>
       <h2 class="text-center fs-6 sub-header">Who Are We?</h2>
       <div class="row about-content">
+        <h3 class="text-center mb-2">Welcome to TEkNO-CrAFTS.</h3>
         <div class="col px-6">
-          <h3 class="text-center">Welcome to TEkNO-CrAFTS.</h3>
           <p>
             We are a team of passionate professionals dedicated to providing
             innovative technology solutions for businesses and individuals
@@ -165,7 +182,7 @@
             services tailored to their unique needs.
           </p>
         </div>
-        <div class="col">
+        <div class="col d-md-flex d-sm-none">
           <img
             src="/Images/Laptop.png"
             alt=""
@@ -181,14 +198,14 @@
             Our company was founded on the belief that technology should be
             accessible, user-friendly, and affordable. With years of experience
             in the industry, we have honed our skills and expertise to deliver
-            top-notch technology solutions that drive growth and success.
+            scale-notch technology solutions that drive growth and success.
           </p>
         </div>
-        <div class="col">
+        <div class="col d-md-flex d-sm-none">
           <img
             src="/Images/Story.png"
             alt=""
-            class="rounded about-img scroll-bottom"
+            class="rounded about-img scroll-scale"
           />
         </div>
       </div>
@@ -204,7 +221,7 @@
             that our clients receive the best possible solutions.
           </p>
         </div>
-        <div class="col">
+        <div class="col d-md-flex d-sm-none">
           <img
             src="/Images/expertise__.png"
             alt=""
@@ -225,11 +242,11 @@
             are involved in every step of the process.
           </p>
         </div>
-        <div class="col">
+        <div class="col d-md-flex d-sm-none">
           <img
             src="/Images/innovation.png"
             alt=""
-            class="rounded about-img scroll-top"
+            class="rounded about-img scroll-scale"
           />
         </div>
       </div>
@@ -245,11 +262,11 @@
             experience to the table.
           </p>
         </div>
-        <div class="col">
+        <div class="col d-md-flex d-sm-none">
           <img
             src="/Images/team.png"
             alt=""
-            class="rounded about-img scroll-bottom"
+            class="rounded about-img scroll-scale"
           />
         </div>
       </div>
@@ -264,11 +281,11 @@
             our dedication to customer satisfaction.
           </p>
         </div>
-        <div class="col">
+        <div class="col d-md-flex d-sm-none">
           <img
             src="/Images/Commitment.png"
             alt=""
-            class="rounded about-img scroll-top"
+            class="rounded about-img scroll-scale"
           />
         </div>
       </div>
@@ -276,11 +293,11 @@
     <!-- end of about us section -->
 
     <!-- service section -->
-    <section class="container-fluid d-flex flex-column" id="services">
+    <section class="container-fluid d-flex flex-column pb-3" id="services">
       <h1 class="fs-1 text-center section-header">Our Services</h1>
       <h2 class="text-center fs-6 sub-header">What We Do</h2>
       <div class="container d-flex flex-wrap mx-auto service-section">
-        <div class="card text-center m-3 scroll-top">
+        <div class="card text-center m-3">
           <div class="card-img">
             <img src="/Images/web.jpg" alt="" />
           </div>
@@ -290,14 +307,16 @@
               <i class="bi bi-display fs-1 text-white"></i>
             </div>
             <p class="card-text text-white">
-              With supporting text below as a natural lead-in to additional
-              content.
+              We provide comprehensive web designing services to help you
+              establish a powerful online presence and achieve your digital
+              goals. We are dedicated to delivering visually stunning,
+              user-friendly, and technologically advanced websites.
             </p>
             <a href="#" class="btn btn-primary mb-2">Read More</a>
           </div>
         </div>
 
-        <div class="card text-center m-3 scroll-top">
+        <div class="card text-center m-3">
           <div class="card-img">
             <img src="/Images/mobile.svg" alt="" />
           </div>
@@ -307,14 +326,15 @@
               <ion-icon name="code-slash" class="fs-1 text-white"></ion-icon>
             </div>
             <p class="card-text text-white">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Turn innovative ideas into powerful mobile applications. Elevate
+              your business with our comprehensive mobile app development
+              services.
             </p>
             <a href="#" class="btn btn-primary mb-2">Read More</a>
           </div>
         </div>
 
-        <div class="card text-center m-3 scroll-top">
+        <div class="card text-center m-3">
           <div class="card-img">
             <img src="/Images/cloud_computing.jpg" alt="" />
           </div>
@@ -324,14 +344,15 @@
               <ion-icon name="cloud" class="fs-1 text-white"></ion-icon>
             </div>
             <p class="card-text text-white">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Leverage the power of scalable and flexible cloud infrastructure.
+              We provide robust solutions for storage, computing power, and
+              networking, ensuring your business operations run seamlessly.
             </p>
             <a href="#" class="btn btn-primary mb-2">Read More</a>
           </div>
         </div>
 
-        <div class="card text-center m-3 scroll-bottom">
+        <div class="card text-center m-3">
           <div class="card-img">
             <img src="/Images/cybernetics.jpg" alt="" />
           </div>
@@ -341,14 +362,15 @@
               <img src="/Images/ai-icon.png" alt="" />
             </div>
             <p class="card-text text-white">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Stay ahead in the AI revolution. We're committed to continuous
+              innovation, keeping your business at the forefront of emerging AI
+              technologies and trends
             </p>
             <a href="#" class="btn btn-primary mb-2">Read More</a>
           </div>
         </div>
 
-        <div class="card text-center m-3 scroll-bottom">
+        <div class="card text-center m-3">
           <div class="card-img">
             <img src="/Images/cyber.svg" alt="" />
           </div>
@@ -358,14 +380,15 @@
               <i class="bi bi-shield-lock fs-1 text-white"></i>
             </div>
             <p class="card-text text-white">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Secure your digital future with TEkNO-CrAFTS, where cybersecurity
+              meets innovation. Explore our comprehensive range of services
+              designed to safeguard your business from evolving cyber threats:
             </p>
             <a href="#" class="btn btn-primary mb-2">Read More</a>
           </div>
         </div>
 
-        <div class="card text-center m-3 scroll-bottom">
+        <div class="card text-center m-3">
           <div class="card-img">
             <img src="/Images/hosting.jpg" alt="" />
           </div>
@@ -375,8 +398,9 @@
               <img src="/Images/website-hosting-icon.png" alt="" />
             </div>
             <p class="card-text text-white">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Experience seamless and dependable hosting solutions. We offer a
+              range of services designed to meet your hosting needs, ensuring
+              your online presence is secure, fast, and always accessible.
             </p>
             <a href="#" class="btn btn-primary mb-2">Read More</a>
           </div>
@@ -394,7 +418,7 @@
       <h2 class="text-center fs-6 sub-header">Ask Us A Question</h2>
       <div class="container">
         <div class="row">
-          <div class="col-md-9 mx-auto">
+          <div class="mx-auto">
             <div class="contact-form">
               <form action="">
                 <div>
@@ -429,8 +453,8 @@
 
     <!-- Footer Section -->
     <section class="container-fluid d-flex flex-column pt-4" id="footer">
-      <div class="container row text-start">
-        <div class="col-5 mx-2">
+      <div class="container mx-auto row text-start mb-4">
+        <div class="col-md col-sm mx-2">
           <h4 class="footer-text-color">TEkNO-CrAFTS</h4>
           <p class="text-start fs-6 text-secondary-emphasis">
             Designed and built with all the love in the world by the
@@ -441,7 +465,7 @@
             >.
           </p>
         </div>
-        <div class="col-4 mx-2">
+        <div class="col-md mx-2 col-sm mb-4">
           <h4 class="footer-text-color">Contact info</h4>
           <div class="text-start d-flex flex-column">
             <a href="" class="nav-link mb-1 contact-info">
@@ -497,7 +521,7 @@
             </div>
           </div>
         </div>
-        <div class="col mx-2">
+        <div class="col-md mx-2 col-sm-6 mb-4">
           <h4 class="footer-text-color">Support</h4>
           <div class="text-start d-flex flex-column">
             <a href="" class="nav-link fs-6 text-secondary-emphasis"
